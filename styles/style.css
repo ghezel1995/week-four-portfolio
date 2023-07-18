@@ -1,0 +1,12 @@
+/*     font-family: 'Merriweather', serif;
+        font-family: 'Pangolin', cursive;
+        font-family: 'Roboto', sans-serif; 
+*/
+.my-brand {
+  font-family: 'Pangolin', cursive;
+  font-weight: 500;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  margin-top: 50px;
+}
