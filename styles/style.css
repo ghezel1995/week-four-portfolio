@@ -1,12 +1,65 @@
-/*     font-family: 'Merriweather', serif;
-        font-family: 'Pangolin', cursive;
-        font-family: 'Roboto', sans-serif; 
-*/
+:root {
+  --bg-color: #142d4c;
+  --hero-color: #ececec;
+  --btn-color: #9fd3c7;
+  --space-color: #385170;
+  --heading-font-family: 'Merriweather', serif;
+  --brand-font-family: 'Pangolin', cursive;
+  --regular-font-family: 'Roboto', sans-serif;
+}
+body {
+  font-family: var(--regular-font-family);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+.hero {
+  background-color: var(--bg-color);
+  color: var(--hero-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.hero h1 {
+  font-size: 4rem;
+  transition: all 200ms ease-in-out;
+}
+.hero h4 {
+  font-size: 1.4rem;
+}
+.btn-brand {
+  text-decoration: none;
+  background-color: #142d4c;
+  padding: 10px 30px;
+  border: 2px solid var(--btn-color);
+  color: var(--btn-color);
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+.btn-brand:hover {
+  background-color: var(--btn-color);
+
+  color: #142d4c;
+}
 .my-brand {
   font-family: 'Pangolin', cursive;
   font-weight: 500;
 }
-h1 {
-  font-family: 'Merriweather', serif;
-  margin-top: 50px;
+
+@media (max-width: 578px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
 }
