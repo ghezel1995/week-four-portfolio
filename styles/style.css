@@ -34,20 +34,36 @@ h6 {
 .hero h4 {
   font-size: 1.4rem;
 }
-.btn-brand {
+a {
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: all 200ms ease-in-out;
+}
+.btn-contact {
+  border: 2px solid var(--btn-color);
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--bg-color);
+  background-color: var(--btn-color);
+}
+.btn-contact:hover {
   text-decoration: none;
   background-color: #142d4c;
-  padding: 10px 30px;
-  border: 2px solid var(--btn-color);
   color: var(--btn-color);
-  border-radius: 4px;
-  transition: all 200ms ease-in-out;
+}
+.btn-brand {
+  border: 2px solid var(--btn-color);
+  text-decoration: none;
+  background-color: #142d4c;
+  color: var(--btn-color);
 }
 .btn-brand:hover {
   background-color: var(--btn-color);
 
   color: #142d4c;
 }
+
 .my-brand {
   font-family: 'Pangolin', cursive;
   font-weight: 500;
@@ -62,4 +78,11 @@ h6 {
   h6 {
     text-align: center;
   }
+  .descriptions {
+    text-align: center;
+  }
+}
+.my-body {
+  background-color: var(--space-color);
+  color: var(--hero-color);
 }
