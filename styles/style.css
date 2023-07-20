@@ -81,6 +81,9 @@ a {
   .descriptions {
     text-align: center;
   }
+  .contact-mail{
+    text-align: center;
+  }
 }
 .my-body {
   background-color: var(--space-color);
@@ -104,3 +107,4 @@ a {
 }
 .icons i:hover {
   opacity: 70%;
+}
