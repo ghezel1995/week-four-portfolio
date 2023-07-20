@@ -86,3 +86,21 @@ a {
   background-color: var(--space-color);
   color: var(--hero-color);
 }
+.my-footer{
+  background-color: var(--bg-color);
+  color: var(--btn-color);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.icons i {
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  border-radius: 50%;
+  padding: 10px;
+}
+.icons i:hover {
+  opacity: 70%;
