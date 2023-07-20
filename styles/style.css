@@ -27,6 +27,15 @@ h6 {
   justify-content: center;
   height: 90vh;
 }
+.about-hero {
+  background-color: var(--bg-color);
+  color: var(--hero-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
 .hero h1 {
   font-size: 6rem;
   transition: all 200ms ease-in-out;
@@ -77,24 +86,36 @@ a {
   h6 {
     text-align: center;
   }
-  .hero h1{
+  .hero h1 {
     font-size: 2.5rem;
     text-align: center;
   }
   .descriptions {
     text-align: center;
   }
-  .contact-mail{
+  .contact-mail {
     text-align: center;
   }
+  .hero {
+    height: 100vh;
+  }
+  
 }
 .my-body {
   background-color: var(--space-color);
   color: var(--hero-color);
 }
-.my-footer{
+.my-footer {
   background-color: var(--bg-color);
   color: var(--btn-color);
+}
+.about-footer {
+  background-color: var(--hero-color);
+  color: var(--bg-color);
+}
+.about-footer .icons i{
+  color: var(--bg-color);
+  border: 1px solid var(--bg-color);
 }
 
 .icons {
@@ -107,6 +128,7 @@ a {
   border: 1px solid var(--btn-color);
   border-radius: 50%;
   padding: 10px;
+  transition: all 200ms ease-in-out;
 }
 .icons i:hover {
   opacity: 70%;
