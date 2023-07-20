@@ -41,6 +41,14 @@ h6 {
   justify-content: center;
   height: 90vh;
 }
+.works-hero {
+  background-color: var(--bg-color);
+  color: var(--hero-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .hero h1 {
   font-size: 4rem;
   transition: all 200ms ease-in-out;
@@ -135,4 +143,16 @@ a {
 }
 .icons i:hover {
   opacity: 70%;
+}
+.works-link {
+  text-decoration: none;
+  color: var(--btn-color);
+  transition: all 200ms ease-in-out;
+}
+.works-link:hover {
+  opacity: 50%;
+}
+.works-description {
+  text-align: center;
+  color: var(--btn-color);
 }
