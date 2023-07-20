@@ -49,13 +49,13 @@ a {
 }
 .btn-contact:hover {
   text-decoration: none;
-  background-color: #142d4c;
+  background-color: var(--space-color);
   color: var(--btn-color);
 }
 .btn-brand {
   border: 2px solid var(--btn-color);
   text-decoration: none;
-  background-color: #142d4c;
+  background-color: var(--space-color);
   color: var(--btn-color);
 }
 .btn-brand:hover {
