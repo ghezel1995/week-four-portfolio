@@ -28,7 +28,7 @@ h6 {
   height: 90vh;
 }
 .hero h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   transition: all 200ms ease-in-out;
 }
 .hero h4 {
@@ -70,12 +70,15 @@ a {
 }
 
 @media (max-width: 578px) {
-  h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
+    text-align: center;
+  }
+  .hero h1{
+    font-size: 2.5rem;
     text-align: center;
   }
   .descriptions {
