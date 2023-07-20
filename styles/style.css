@@ -10,6 +10,11 @@
 body {
   font-family: var(--regular-font-family);
 }
+p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
 h1,
 h2,
 h3,
@@ -37,7 +42,7 @@ h6 {
   height: 90vh;
 }
 .hero h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   transition: all 200ms ease-in-out;
 }
 .hero h4 {
@@ -69,7 +74,6 @@ a {
 }
 .btn-brand:hover {
   background-color: var(--btn-color);
-
   color: #142d4c;
 }
 
@@ -99,7 +103,6 @@ a {
   .hero {
     height: 100vh;
   }
-  
 }
 .my-body {
   background-color: var(--space-color);
@@ -113,7 +116,7 @@ a {
   background-color: var(--hero-color);
   color: var(--bg-color);
 }
-.about-footer .icons i{
+.about-footer .icons i {
   color: var(--bg-color);
   border: 1px solid var(--bg-color);
 }
