@@ -6,6 +6,7 @@
   --heading-font-family: 'Merriweather', serif;
   --brand-font-family: 'Pangolin', cursive;
   --regular-font-family: 'Roboto', sans-serif;
+  --transition: all 200ms ease-in-out;
 }
 body {
   font-family: var(--regular-font-family);
@@ -60,7 +61,7 @@ h6 {
 }
 .hero h1 {
   font-size: 4rem;
-  transition: all 200ms ease-in-out;
+  transition: var(--transition);
 }
 .hero h4 {
   font-size: 1.4rem;
@@ -69,7 +70,7 @@ a {
   padding: 10px 30px;
   border-radius: 4px;
   font-weight: 700;
-  transition: all 200ms ease-in-out;
+  transition: var(--transition);
 }
 .btn-contact {
   border: 2px solid var(--btn-color);
@@ -120,6 +121,23 @@ a {
   .hero {
     height: 100vh;
   }
+  .contact-container {
+    height: 90vh;
+    padding-top: 100px;
+  }
+  .contact-container p {
+    width: 60%;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--bg-color);
+  }
+  .contact-img {
+    display: none;
+  }
+  .about-hero{
+    height: auto;
+  }
 }
 .my-body {
   background-color: var(--space-color);
@@ -137,6 +155,10 @@ a {
   color: var(--bg-color);
   border: 1px solid var(--bg-color);
 }
+.about-footer .icons i:hover {
+  color: var(--hero-color);
+  background-color: var(--bg-color);
+}
 
 .icons {
   display: flex;
@@ -148,15 +170,16 @@ a {
   border: 1px solid var(--btn-color);
   border-radius: 50%;
   padding: 10px;
-  transition: all 200ms ease-in-out;
+  transition: var(--transition);
 }
 .icons i:hover {
-  opacity: 70%;
+  color: var(--bg-color);
+  background-color: var(--btn-color);
 }
 .works-link {
   text-decoration: none;
   color: var(--btn-color);
-  transition: all 200ms ease-in-out;
+  transition: var(--transition);
 }
 .works-link:hover {
   opacity: 50%;
@@ -169,13 +192,26 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   line-height: 2;
 }
-.contact-info h4{
+.contact-info h4 {
   margin-top: 20px;
 }
 .info-link {
   text-decoration: none;
   color: var(--btn-color);
+}
+.info-link:hover {
+  opacity: 70%;
+}
+
+.github-link {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: var(--btn-color);
+}
+.github-link:hover {
+  opacity: 50%;
 }
