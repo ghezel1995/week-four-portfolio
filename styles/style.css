@@ -49,6 +49,15 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+.contact-hero {
+  background-color: var(--bg-color);
+  color: var(--hero-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 .hero h1 {
   font-size: 4rem;
   transition: all 200ms ease-in-out;
@@ -154,5 +163,19 @@ a {
 }
 .works-description {
   text-align: center;
+  color: var(--btn-color);
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+}
+.contact-info h4{
+  margin-top: 20px;
+}
+.info-link {
+  text-decoration: none;
   color: var(--btn-color);
 }
