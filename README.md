@@ -26,7 +26,7 @@ To set up and run this project locally, follow these steps:
 
 2. **Navigate to the project directory**:
     ```bash
-    cd portfolio-website
+    cd week-four-portfolio
     ```
 
 3. **Open the `index.html` file in your browser**:
